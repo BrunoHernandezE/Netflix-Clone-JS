@@ -1,0 +1,47 @@
+.nav_bar {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 13px;
+  width: 92%;
+}
+.nav_bar__logo_menu {
+  align-items: center;
+  display: flex;
+}
+.nav_bar__logo {
+  background-image: url("../images/Fakeflix_logo.png");
+  background-size: cover;
+  cursor: pointer;
+  width: 130px;
+  height: 36px;
+}
+.nav_bar__list {
+  display: flex;
+}
+.nav_bar__list li {
+  margin-left: 36px;
+}
+.nav_bar__list li a {
+  color: #b3b3b3;
+  text-decoration: none;
+  font-size: 18px;
+}
+.nav_bar__search__btn {
+  align-content: center;
+  background-color: transparent;
+  border: none;
+  color: #f2f2f2;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+}
+.nav_bar__user__btn {
+  background-image: url("../images/Fakeflix_profilepic.png");
+  background-size: cover;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+}
